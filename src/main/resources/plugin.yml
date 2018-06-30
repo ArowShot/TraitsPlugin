@@ -1,0 +1,15 @@
+name: TraitsPlugin
+version: 1.0.0a
+description: A plugin that adds traits
+author: ArowShot
+
+main: com.reynixpvp.traitsplugin.TraitsPlugin
+
+commands:
+  trait:
+    description: The traits base command.
+    aliases: [traits, t]
+permissions:
+  traits.inspectothers:
+    description: Inspect other players' traits.
+    default: op
